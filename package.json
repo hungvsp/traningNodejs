@@ -7,7 +7,8 @@
     "prettier": "prettier --single-quote --tab-width 2 --trailing-comma all --no-bracket-spacing --write \"src/**/*.{js,css,html,scss}\"",
     "start": "nodemon --inspect index.js",
     "scss": "node-sass --watch src/resources/scss/app.scss src/public/css/app.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",

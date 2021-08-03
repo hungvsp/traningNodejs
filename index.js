@@ -12,6 +12,9 @@ app.engine('hbs', handlebars({extname: '.hbs'}));
 app.set('view engine', 'hbs')
 app.set('views', path.join(__dirname, '/src/resources/views'));
 routes(app)
+
+
+
 app.listen(port, () => {
   console.log(path.join(__dirname,'src','public'))
   console.log(`Example app listening at http://localhost:${port}`)
